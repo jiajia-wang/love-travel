@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "微软雅黑";
+	background: url(../images/wallpaper.jpg) no-repeat;
+	background-size: cover;
+}
+div,input,img,button,figure{
+	box-sizing: border-box;
+} 
+img{
+	display: block;
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+}
+.cl{
+	clear: both;
+	overflow: hidden;
+	height: 0;
+}
+#zhuce{
+	max-width: 1200px;
+	height:500px ;
+	margin: 470px auto;
+	background: #F9F9F9;
+	border-radius: 5px;
+}
+/*普通注册*/
+#zhuce .putong{
+	width: 50%;
+	border-right: 1px solid #CCCCCC;
+	padding-top: 30px;
+	float: left;
+	padding-left: 40px;
+}
+#zhuce .putong h2,#zhuce .quick h2{
+	color: #606060;
+}
+#zhuce .putong hr{
+	background: #75C50A;
+	width: 17%;
+	height: 3px;
+	border: 1px solid #75C50A;
+}
+#zhuce .putong form{
+	margin-top: 50px;
+}
+#zhuce .putong form input{
+	margin: 25px 0px;
+	width: 350px;
+	height: 35px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	padding-left: 30px;
+}
+#zhuce .putong form .s{
+	width: 100px;
+	padding-right: 22px;
+	height: 35px;
+	line-height: 35px;
+	margin-left: 176px;
+	background: #7dc82c;
+	border: 1px solid #5bbb1d;
+	color: white;
+}
+/*快速注册*/
+#zhuce .quick{
+	padding-top: 30px;
+	float: left;
+	padding-left: 40px;
+}
+#zhuce .quick hr{
+	background: #75C50A;
+	width: 18%;
+	height: 3px;
+	border: 1px solid #75C50A;
+}
+#zhuce .quick table{
+	margin-top: 65px;
+	width: 100%;
+	height: 240px;
+	margin-right: 230px;
+}
+#zhuce .quick p{
+	float: right;
+	margin-top: 40px;
+}
+#zhuce .quick p a{
+	color: darkmagenta;
+}
+/*底部*/
+#footer{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}

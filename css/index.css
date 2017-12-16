@@ -1,0 +1,469 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "微软雅黑";
+	background: url(../images/bg.jpg) repeat;
+}
+div,input,img,button,figure{
+	box-sizing: border-box;
+} 
+img{
+	display: block;
+	max-width: 100%;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.cl{
+	clear: both;
+	overflow: hidden;
+	height: 0;
+}
+/*头部*/
+#top{
+	width: 100%;
+	height: 90px;
+	color: #FFFFFF;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	/*层*/
+	z-index: 999;
+}
+#top .top-1{
+	height: 40px;
+	background: #000000;
+}
+#top .top-1 .wp{
+	max-width: 1300px;
+	margin: 0px auto;
+}
+#top .top-1 .wp a{
+	color: white;
+	padding-right: 1%;
+	line-height: 40px;
+}
+#top .top-1 .wp a:hover{
+	color: orangered;
+}
+#top .top-1 .wp ul{
+	float: right;
+	line-height: 40px;
+}
+#top .top-1 .wp ul li{
+	display: inline-block;
+	padding-right: 2px;
+}
+#top .top-1 .wp ul li a{
+	padding: 0px 2px;
+}
+#top .top-1 .wp .xt{
+	padding-left: 50px;
+	background: url(../images/upload/photos/use1.jpg) left center no-repeat;
+}
+#top .top-2{
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #cdcdcd;
+	padding-bottom: 3.5%;
+}
+#top .top-2 .wp{
+	max-width: 1300px;
+	margin: 0px auto;
+}
+#top .top-2 .wp img{
+	width: 130px;
+	height: 60px;
+	float: left;
+	margin-right: 10px;
+	
+}
+#top .top-2 .wp ul li{
+	display: inline-block;
+	float: left;
+	width: 58px;
+}
+#top .top-2 .wp ul li a{
+	color: #89807c;
+}
+#top .top-2 .wp ul li a:hover{
+	color: darkorange;
+}
+#top .top-2 .wp ul li span{
+	color: #89807C;
+}
+#top .top-2 .wp .seach{
+	float: right;
+	margin-top: 15px;
+}
+#top .top-2 .wp .seach input{
+	width: 195px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #89807C;
+	border-right-style: none;
+	float: left;
+	color: #bababa;
+	padding-left: 5px;
+}
+#top .top-2 .wp .seach button{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 1.5px;
+	border: 1px solid #89807C;
+	border-left-style: none;
+	float: right;
+	background: url(../images/xiao1.jpg) no-repeat;
+	cursor: pointer;
+}
+#center{
+	width: 100%;
+	height: 2250px;
+}
+#center .wp{
+	max-width: 1300px;
+	margin: 135px auto;
+}
+/*中心--左部分*/
+#center .wp .left{
+	width: 75%;
+	float: left;
+}
+#center .wp .left .banner{
+	width: 100%;
+}
+#center .wp .left .banner .swiper-slide{
+	width: 100%;
+}
+#center .wp .left .banner .swiper-slide img{
+	width: 100%;
+}
+/*中心--生活*/
+#center .wp .left .live{
+	height: 450px;
+	border: 8px solid #f9f9f9;; 
+	margin-top: 40px;
+	border-radius: 5px;
+}
+#center .wp .left  .live-1{
+	height: 40px;
+	line-height: 35px;
+	border-bottom: 1px solid #d2d2d2;
+	padding-bottom: 4px;
+	background: #f9f9f9;
+}
+#center .wp .left  .live-1 h3{
+	color: #606060;
+	font-size: 24px;
+	float: left;
+	padding-left: 10px;
+}
+#center .wp .left  .live-1 span{
+	float: right;
+}
+#center .wp .left  .live-1 span a{
+	color: #727474;
+}
+#center .wp .left  .live-1 span a:hover{
+	color: deeppink;
+}
+#center .wp .left  figure{
+	width: 32.2%;
+	height: 189px;
+	background: url(../images/shadow-bg.png) no-repeat;
+	background-size: cover;
+	float: left;
+	margin: 3px 5px;
+	border-radius: 5px;
+}
+#center .wp .left  figure img{
+	padding: 20px 55px 0px ;
+}
+/*中心--时尚*/
+#center .wp .left .fashion{
+	height: 450px;
+	border: 8px solid #f9f9f9;; 
+	margin-top: 40px;
+	border-radius: 5px;
+}
+/*中心--兴趣*/
+#center .wp .left .hobby{
+	height: 450px;
+	border: 8px solid #f9f9f9;; 
+	margin-top: 40px;
+	border-radius: 5px;
+}
+/*中心--右部分*/
+#center .wp .right{
+	width: 23%;
+	float: right;
+}
+/*热门推荐*/
+#center .wp .right .hot-tj{
+	height: 470px;
+	background: #F9F9F9;
+}
+#center .wp .right .hot-tj h2{
+	padding: 20px 20px 10px;
+	color: #64656a;
+}
+#center .wp .right .hot-tj hr{
+	margin: 10px;
+}
+#center .wp .right .hot-tj h3{
+	padding: 145px 0px 0px 20px;
+	color: #33336a;
+	background: url(../images/upload/img1.jpg) top center no-repeat;
+}
+#center .wp .right .hot-tj p{
+	padding: 10px 20px;
+	text-indent: 2em;
+	color: #3389cd;
+}
+/*热门标签*/
+#center .wp .right .hot-bq{
+	height: 310px;
+	background: #F9F9F9;
+	margin-top: 30px;
+}
+#center .wp .right .hot-bq h2{
+	padding: 20px 20px 10px;
+	font-size: 20px;
+	color: #75c55c;
+}
+#center .wp .right .hot-bq hr{
+	margin: 10px;
+}
+#center .wp .right .hot-bq p{
+	padding: 2px 20px;
+}
+#center .wp .right .hot-bq p b{
+	font-size: 28px;
+	color: #ffa500;
+	font-weight: 400;
+}
+#center .wp .right .hot-bq p span{
+	color: #75c50a;
+	font-size: 22px;
+}
+/*悟语*/
+#center .wp .right .wuyu{
+	height: 420px;
+	background: #F9F9F9;
+	margin-top: 30px;
+}
+#center .wp .right .wy{
+	height: 54px;
+	line-height: 54px;
+	padding: 0px  20px;
+}
+#center .wp .right .wy h2{
+	float: left;
+	color: #75c55c;
+	font-size: 20px;
+}
+#center .wp .right .wy span{
+	float: right;
+}
+#center .wp .right .wy span a{
+	color: #64656A;
+}
+#center .wp .right .wy span a:hover{
+	color: deeppink;
+}
+#center .wp .right  hr{
+	margin: 10px;
+}
+#center .wp .right .wuyu .wy-1{
+	height: 110px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 0px 20px 10px 120px;
+	background: url(../images/upload/photos/admin.jpg)no-repeat;
+	border-bottom: 2px dashed #cccccc;
+}
+#center .wp .right .wuyu .wy-2{
+	padding: 10px 20px ;
+}
+#center .wp .right .wuyu .wy-2 img{
+	height: 121px;
+	width: 220px;
+	margin: 10px auto;
+}
+/*主题活动*/
+#center .wp .right .zhuti{
+	background: #F9F9F9;
+	height: 309px;
+	margin-top: 30px;
+}
+#center .wp .right .zhuti p{
+	text-align: center;
+	padding-top: 165px;
+	background: url(../images/upload/act1.gif) top center no-repeat;
+}
+#center .wp .right .zhuti h4{
+	text-align: center;
+}
+/*旅行日志*/
+#center .wp .right .lvxing{
+	background: #F9F9F9;
+	margin-top: 30px;
+	height: 380px;
+}
+#center .wp .right .lvxing .wy-1{
+	height: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 0px 20px 10px 120px;
+	background: url(../images/upload/arc1.jpg)no-repeat;
+	border-bottom: 2px dashed #cccccc;
+}
+#center .wp .right .lvxing ul li{
+	padding: 6px 20px;
+	border-bottom: 2px dashed #cccccc;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#center .wp .right .lvxing ul li a{
+	color: #606060;
+}
+#center .wp .right .lvxing ul li a:hover{
+	color: deepskyblue;
+}
+/*活跃会员*/
+#center .wp .right .vip{
+	background: #F9F9F9;
+	height: 416px;
+	margin-top: 20px;
+}
+#center .wp .right .vip h2{
+	padding: 20px 20px 0px;
+	font-size: 20px;
+	color: #75c55c;
+}
+#center .wp .right .vip .vip-1{
+	height: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 0px 20px 10px 80px;
+	background: url(../images/upload/photos/use1.jpg)no-repeat;
+	border-bottom: 2px dashed #cccccc;
+	font-size: 16px;
+	color: #b4b4b4;
+}
+#center .wp .right .vip a{
+	font-size: 18px;
+	font-weight: bold;
+	color: #606060;
+}
+#center .wp .right .vip a:hover{
+	color: darkturquoise;
+}
+#center .wp .right .vip .vip-2{
+	height: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 8px;
+	padding: 0px 20px 10px 80px;
+	background: url(../images/upload/photos/use2.jpg)no-repeat;
+	border-bottom: 2px dashed #cccccc;
+	font-size: 16px;
+	color: #b4b4b4;
+}
+#center .wp .right .vip .vip-3{
+	height: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 8px;
+	padding: 0px 20px 10px 80px;
+	background: url(../images/upload/photos/use3.jpg)no-repeat;
+	border-bottom: 2px dashed #cccccc;
+	font-size: 16px;
+	color: #b4b4b4;
+}
+#center .wp .right .vip .vip-4{
+	height: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 8px;
+	padding: 0px 20px 10px 80px;
+	background: url(../images/upload/photos/use4.jpg)no-repeat;
+	border-bottom: 2px dashed #cccccc;
+	font-size: 16px;
+	color: #b4b4b4;
+}
+#center .wp .right .vip .vip-5{
+	height: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 8px;
+	padding: 0px 20px 10px 80px;
+	background: url(../images/upload/photos/use5.jpg)no-repeat;
+	border-bottom: 2px dashed #cccccc;
+	font-size: 16px;
+	color: #b4b4b4;
+}
+/*尾部*/
+#footer{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	border-top: 1px solid #cccccc;
+	margin-top: 10px;
+}
+/*返回头部*/
+.toTop{
+	position:fixed;
+	/*position:relative*/
+	right:30px;
+	bottom:60px;
+	width:60px;
+	height:50px;
+	text-align: center;
+	line-height: 30px;
+	background: rgba(0,0,0,0.4);
+	/*background: #c7d6e5;*/
+	border-radius: 5px;
+}
+.toTop a{
+	/*下划线*/
+	text-decoration: none;
+	font-weight: bold;
+	font-size:14px;
+	color:#fff;
+}
+.toTop img{
+	margin: auto;
+	margin-bottom:2px;
+}
+/*关于我们*/
+.guanyu{
+	width: 240px;
+	height: 320px;
+	position:fixed;
+	right:10px;
+	bottom:150px;
+	background: #f9f9f9;
+	border-radius: 5px;
+}
+.guanyu h2{
+	padding: 20px 20px 0px;
+	font-size: 20px;
+	color: #75c55c;
+}
+.guanyu hr{
+	margin: 10px;
+}
+.guanyu p a img{
+	margin: 10px auto;
+}
+.guanyu p a:hover{
+	background: url(../images/weixin.jpg) no-repeat 10px center;
+}
