@@ -431,17 +431,33 @@ a{
 	background: rgba(0,0,0,0.4);
 	/*background: #c7d6e5;*/
 	border-radius: 5px;
+
 }
-.toTop a{
+.toTop a,.yijian a{
 	/*下划线*/
 	text-decoration: none;
 	font-weight: bold;
 	font-size:14px;
 	color:#fff;
 }
-.toTop img{
-	margin: auto;
-	margin-bottom:2px;
+.toTop img,.yijian img{
+	margin:2px auto;
+	/*margin-bottom:2px;*/
+}
+/*意见反馈*/
+.yijian{
+	position:fixed;
+	/*position:relative*/
+	right:30px;
+	bottom:2px;
+	width:60px;
+	height:55px;
+	text-align: center;
+	line-height: 30px;
+	background: rgba(54,135,217,0.4);
+	/*background: #c7d6e5;*/
+	border-radius: 5px;
+
 }
 /*关于我们*/
 .guanyu{

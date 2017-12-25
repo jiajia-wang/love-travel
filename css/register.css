@@ -26,7 +26,8 @@ a{
 	max-width: 1200px;
 	height:500px ;
 	margin: 470px auto;
-	background: #F9F9F9;
+	/*background: #F9F9F9;*/
+	background: rgba(251,238,252,0.4);
 	border-radius: 5px;
 }
 /*普通注册*/
@@ -38,13 +39,13 @@ a{
 	padding-left: 40px;
 }
 #zhuce .putong h2,#zhuce .quick h2{
-	color: #606060;
+	color: #7ff368;
 }
 #zhuce .putong hr{
-	background: #75C50A;
+	background: lavender;
 	width: 17%;
 	height: 3px;
-	border: 1px solid #75C50A;
+	border: 1px solid lavender;
 }
 #zhuce .putong form{
 	margin-top: 50px;
@@ -74,10 +75,10 @@ a{
 	padding-left: 40px;
 }
 #zhuce .quick hr{
-	background: #75C50A;
+	background: lavender;
 	width: 18%;
 	height: 3px;
-	border: 1px solid #75C50A;
+	border: 1px solid lavender;
 }
 #zhuce .quick table{
 	margin-top: 65px;
